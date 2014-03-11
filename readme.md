@@ -1,4 +1,13 @@
-wp-jquery-ui-datepicker-skins
+jQuery UI datepicker skins for WordPress
 =============================
 
-jQuery UI datepicker skins for WordPress Admin color schemes
+A collection of jQuery UI datepicker skins to match the admin color schemes available in WordPress.
+
+* Default
+* Light
+* Blue
+* Coffee
+* Ectoplasm
+* Midnight
+* Ocean
+* Sunrise
