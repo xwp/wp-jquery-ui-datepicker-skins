@@ -1,0 +1,39 @@
+.admin-color-light .ui-datepicker {
+
+	.ui-datepicker-header,
+	.ui-datepicker-header .ui-state-hover,
+	thead {
+		background: #e5e5e5;
+	}
+
+	td {
+		background: #fff;  //might be able to remove this
+	}
+
+	.ui-datepicker-next span,
+	.ui-datepicker-prev span {
+		background-image: url(icons/datepicker-icons-gray.png);
+	}
+
+	th {
+		border-color: #fff;
+	}
+
+	.ui-datepicker-title,
+	td .ui-state-default,
+	th {
+		color: #555;
+	}
+
+	td .ui-state-active,
+	td .ui-state-hover {
+		color: #fff; //might be able to remove this
+		background: #888;
+	}
+
+	td.ui-state-disabled,
+	td.ui-state-disabled .ui-state-default {
+		color: #ccc;
+	}
+
+}
