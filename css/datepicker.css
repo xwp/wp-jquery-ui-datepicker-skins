@@ -98,69 +98,69 @@
 }
 /* Other Datepicker Color Schemes */
 /* Blue */
-.admin-color-sunrise .ui-datepicker .ui-datepicker-header,
-.admin-color-sunrise .ui-datepicker .ui-datepicker-header .ui-state-hover,
-.admin-color-sunrise .ui-datepicker thead {
-	background: #be3631;
+.admin-color-blue .ui-datepicker .ui-datepicker-header,
+.admin-color-blue .ui-datepicker .ui-datepicker-header .ui-state-hover,
+.admin-color-blue .ui-datepicker thead {
+	background: #4796b3;
 }
-.admin-color-sunrise .ui-datepicker th {
-	border-color: #cf4944;
+.admin-color-blue .ui-datepicker th {
+	border-color: #52accc;
 }
-.admin-color-sunrise .ui-datepicker td .ui-state-active,
-.admin-color-sunrise .ui-datepicker td .ui-state-hover {
-	background: #dd823b;
+.admin-color-blue .ui-datepicker td .ui-state-active,
+.admin-color-blue .ui-datepicker td .ui-state-hover {
+	background: #096484;
 }
 /* Coffee */
-.admin-color-sunrise .ui-datepicker .ui-datepicker-header,
-.admin-color-sunrise .ui-datepicker .ui-datepicker-header .ui-state-hover,
-.admin-color-sunrise .ui-datepicker thead {
-	background: #be3631;
+.admin-color-coffee .ui-datepicker .ui-datepicker-header,
+.admin-color-coffee .ui-datepicker .ui-datepicker-header .ui-state-hover,
+.admin-color-coffee .ui-datepicker thead {
+	background: #46403c;
 }
-.admin-color-sunrise .ui-datepicker th {
-	border-color: #cf4944;
+.admin-color-coffee .ui-datepicker th {
+	border-color: #59524c;
 }
-.admin-color-sunrise .ui-datepicker td .ui-state-active,
-.admin-color-sunrise .ui-datepicker td .ui-state-hover {
-	background: #dd823b;
+.admin-color-coffee .ui-datepicker td .ui-state-active,
+.admin-color-coffee .ui-datepicker td .ui-state-hover {
+	background: #c7a589;
 }
 /* Ectoplasm */
-.admin-color-sunrise .ui-datepicker .ui-datepicker-header,
-.admin-color-sunrise .ui-datepicker .ui-datepicker-header .ui-state-hover,
-.admin-color-sunrise .ui-datepicker thead {
-	background: #be3631;
+.admin-color-ectoplasm .ui-datepicker .ui-datepicker-header,
+.admin-color-ectoplasm .ui-datepicker .ui-datepicker-header .ui-state-hover,
+.admin-color-ectoplasm .ui-datepicker thead {
+	background: #413256;
 }
-.admin-color-sunrise .ui-datepicker th {
-	border-color: #cf4944;
+.admin-color-ectoplasm .ui-datepicker th {
+	border-color: #523f6d;
 }
-.admin-color-sunrise .ui-datepicker td .ui-state-active,
-.admin-color-sunrise .ui-datepicker td .ui-state-hover {
-	background: #dd823b;
+.admin-color-ectoplasm .ui-datepicker td .ui-state-active,
+.admin-color-ectoplasm .ui-datepicker td .ui-state-hover {
+	background: #a3b745;
 }
 /* Midnight */
-.admin-color-sunrise .ui-datepicker .ui-datepicker-header,
-.admin-color-sunrise .ui-datepicker .ui-datepicker-header .ui-state-hover,
-.admin-color-sunrise .ui-datepicker thead {
-	background: #be3631;
+.admin-color-midnight .ui-datepicker .ui-datepicker-header,
+.admin-color-midnight .ui-datepicker .ui-datepicker-header .ui-state-hover,
+.admin-color-midnight .ui-datepicker thead {
+	background: #26292c;
 }
-.admin-color-sunrise .ui-datepicker th {
-	border-color: #cf4944;
+.admin-color-midnight .ui-datepicker th {
+	border-color: #363b3f;
 }
-.admin-color-sunrise .ui-datepicker td .ui-state-active,
-.admin-color-sunrise .ui-datepicker td .ui-state-hover {
-	background: #dd823b;
+.admin-color-midnight .ui-datepicker td .ui-state-active,
+.admin-color-midnight .ui-datepicker td .ui-state-hover {
+	background: #e14d43;
 }
 /* Ocean */
-.admin-color-sunrise .ui-datepicker .ui-datepicker-header,
-.admin-color-sunrise .ui-datepicker .ui-datepicker-header .ui-state-hover,
-.admin-color-sunrise .ui-datepicker thead {
-	background: #be3631;
+.admin-color-ocean .ui-datepicker .ui-datepicker-header,
+.admin-color-ocean .ui-datepicker .ui-datepicker-header .ui-state-hover,
+.admin-color-ocean .ui-datepicker thead {
+	background: #627c83;
 }
-.admin-color-sunrise .ui-datepicker th {
-	border-color: #cf4944;
+.admin-color-ocean .ui-datepicker th {
+	border-color: #738e96;
 }
-.admin-color-sunrise .ui-datepicker td .ui-state-active,
-.admin-color-sunrise .ui-datepicker td .ui-state-hover {
-	background: #dd823b;
+.admin-color-ocean .ui-datepicker td .ui-state-active,
+.admin-color-ocean .ui-datepicker td .ui-state-hover {
+	background: #9ebaa0;
 }
 /* Sunrise */
 .admin-color-sunrise .ui-datepicker .ui-datepicker-header,

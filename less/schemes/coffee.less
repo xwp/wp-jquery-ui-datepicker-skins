@@ -1,6 +1,23 @@
-@scheme: ~'.admin-color-coffee';
-@header: #46403C;
-@border: #59524C;
-@active: #C7A589;
+@schemeCoffee: ~'.admin-color-coffee';
+@headerCoffee: #46403C;
+@borderCoffee: #59524C;
+@activeCoffee: #C7A589;
 
-@import "base.less";
+@{schemeCoffee} .ui-datepicker {
+
+	.ui-datepicker-header,
+	.ui-datepicker-header .ui-state-hover,
+	thead {
+		background: @headerCoffee;
+	}
+
+	th {
+		border-color: @borderCoffee;
+	}
+
+	td .ui-state-active,
+	td .ui-state-hover {
+		background: @activeCoffee;
+	}
+
+}

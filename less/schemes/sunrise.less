@@ -1,6 +1,23 @@
-@scheme: ~'.admin-color-sunrise';
-@header: #BE3631;
-@border: #CF4944;
-@active: #DD823B;
+@schemeSunrise: ~'.admin-color-sunrise';
+@headerSunrise: #BE3631;
+@borderSunrise: #CF4944;
+@activeSunrise: #DD823B;
 
-@import "base.less";
+@{schemeSunrise} .ui-datepicker {
+
+	.ui-datepicker-header,
+	.ui-datepicker-header .ui-state-hover,
+	thead {
+		background: @headerSunrise;
+	}
+
+	th {
+		border-color: @borderSunrise;
+	}
+
+	td .ui-state-active,
+	td .ui-state-hover {
+		background: @activeSunrise;
+	}
+
+}
