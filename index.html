@@ -28,31 +28,46 @@
 	<style>
 		body {
 			font: 100% "Open Sans", Helvetica, Arial, sans-serif;
+			letter-spacing: -0.5px;
 			margin: 0;
-			background:#fff url( 'img/greyzz.png' );
+			background-color: #fff;
 			-webkit-font-smoothing: antialiased;
 		}
 
 		header {
 			width: 960px;
 			padding: 0;
-			height: 43px;
+			height: 75px;
 			margin: .5em auto 6em;
 		}
 
 		h1 {
-			font-size: 1.6em;
+			font-size: 2em;
 			font-weight: bold;
-			float: left;
+			margin: 40px 0 5px;
+			text-align: center;
+		}
+
+		h2 {
+			text-align: center;
+			font-style: italic;
+			font-size: 1.5em;
+		}
+
+		.logo {
+			width: 100%;
+			text-align: center;
+			font-weight: 700;
+			margin: 30px 0 0;
 		}
 
 		.x-team {
+			display: inline-block;
 			background: url( 'img/xteam.png' ) no-repeat;
-			text-indent: -9999px;
-			width: 87px;
+			width: 86px;
 			height: 30px;
-			float: right;
-			margin-top: 20px;
+			margin-bottom: -10px;
+			margin-left: 3px;
 		}
 
 		h2 {
@@ -100,28 +115,36 @@
 			text-align: center;
 		}
 
-		#downloads a {
-			color: #333;
+		#downloads .button {
 			display: inline-block;
-			padding: 10px 30px;
+			color: #fff;
+			padding: 12px 30px;
 			margin-right: 30px;
-			background: #ccc;
+			background: #ef3e35;
 			text-decoration: none;
-			transition: all .2s linear;
+			font-size: 15px;
+			font-weight: 700;
+
 			-webkit-transition: all .2s linear;
-			-moz-transition: all .2s linear;
-			border-radius: 3px;
-			-webkit-border-radius: 3px;
-			-moz-border-radius: 3px;
+			   -moz-transition: all .2s linear;
+			        transition: all .2s linear;
 		}
 
-		#downloads a:hover {
-			color: #eee;
-			background: #c00;
+		#downloads .button:hover {
+			color: #fff;
+			background: #d6271e;
 		}
 
-		#downloads a:last-child {
+		#downloads .button:last-child {
 			margin: 0;
+		}
+
+		#downloads #view-on-github {
+			background: #444;
+		}
+
+		#downloads #view-on-github:hover {
+			background: #222;
 		}
 
 		.datepickers-cont {
@@ -145,12 +168,14 @@
 			text-align: center;
 		}
 
+		#downloads a,
 		footer a {
 			color: #666;
 			text-decoration: none;
 			font-weight: 600;
 		}
 
+		#downloads a:hover,
 		footer a:hover {
 			color: #000;
 		}
@@ -167,13 +192,15 @@
 <body>
 
 	<header>
-	<h1>jQuery UI Datepicker Skins for WordPress</h1>
-	<a href="http://x-team.com/wordpress" class="x-team">provided by X-Team</a>
+	<h1>jQuery UI Datepicker Skins</h1>
+	<h2>for WordPress</h2>
+	<div class="logo">
+		Provided by <a href="http://x-team.com/wordpress" class="x-team"></a>
+	</div>
 	</header>
 	<div class="intro">
 		<p>A collection of jQuery UI datepicker skins to match the admin color schemes that are available in WordPress core.</p>
-		<p>Available as CSS, LESS and Sass.</p>
-		<p>Tested with WP Version 3.8.1.  Requires jQuery UI CSS stylesheet.</p>
+		<p><strong>Available as CSS, LESS and Sass.</strong></p>
 	</div>
 
 	<article>
@@ -181,6 +208,9 @@
 			<a href="https://github.com/x-team/wp-jquery-ui-datepicker-skins/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
 			<a href="https://github.com/x-team/wp-jquery-ui-datepicker-skins/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
 			<a href="https://github.com/x-team/wp-jquery-ui-datepicker-skins" id="view-on-github" class="button"><span>View on GitHub</span></a>
+			<p>
+				<small>Requires at least <a href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/smoothness/jquery-ui.css" target="_blank">jQuery UI v1.10.1</a></small>
+			</p>
 		</section>
 		<table class="datepickers-cont">
 			<tr>
