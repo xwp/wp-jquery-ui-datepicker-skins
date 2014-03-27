@@ -1,76 +1,239 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Wp-jquery-ui-datepicker-skins by x-team</title>
-  </head>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Skins for the WordPress jQuery UI datapicker" />
+	<meta property="twitter:card" content="summary"/>
+  <meta property="twitter:site" content="@GitHub">
+  <meta property="twitter:title" content="rtsinani/jquery-datepicker-skins"/>
 
-  <body>
-    <div id="container">
-      <div class="inner">
+	<title>WordPress jQuery Datepicker Skins by X-Team</title>
 
-        <header>
-          <h1>Wp-jquery-ui-datepicker-skins</h1>
-          <h2>jQuery UI datepicker skins for WordPress Admin color schemes</h2>
-        </header>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/x-team/wp-jquery-ui-datepicker-skins/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/x-team/wp-jquery-ui-datepicker-skins/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/x-team/wp-jquery-ui-datepicker-skins" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
+	$(function() {
+		$( ".datepicker" ).datepicker({
+			inline: true,
+			showOtherMonths: true
+		});
+	});
+	</script>
 
-        <hr>
+	<link href="stylesheets/stylesheet.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,600,700,800' rel='stylesheet' type='text/css'>
 
-        <section id="main_content">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+	<style>
+		body {
+			font: 100% "Raleway", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+			margin: 0;
+			background:#fff url( 'img/greyzz.png' );
+			-webkit-font-smoothing: antialiased;
+		}
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+		header {
+			width: 960px;
+			padding: 0;
+			height: 43px;
+			margin: .5em auto 6em;
+		}
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+		h1 {
+			font-size: 1.6em;
+			font-weight: bold;
+			float: left;
+		}
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+		.x-team {
+			background: url( 'img/xteam.png' ) no-repeat;
+			text-indent: -9999px;
+			width: 87px;
+			height: 30px;
+			float: right;
+			margin-top: 10px;
+		}
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+		h2 {
+			margin: 0 0 .5em;
+			padding: 0;
+			color: #555;
+			font-size: 1.3em;
+			font-weight: 600;
+		}
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+		h2 a {
+			font-size: .7em;
+			font-weight: normal;
+			color: #999;
+			float: right;
+			margin-right: .3em;
+			margin-top: .3em;
+			text-decoration: none;
+			display: none;
+		}
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+		h2 a:hover {
+			color: #111;
+		}
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+		.datepickers-cont td.part:hover h2 a {
+			display: inline;
+		}
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+		.intro {
+			width: 600px;
+			margin: 0 auto 4em;
+			text-align: center;
+			font-size: 1.1em;
+		}
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+		article {
+			display: block;
+			width: 960px;
+			margin: 20px auto;
+		}
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+		#downloads {
+			margin-bottom: 5em;
+			text-align: center;
+		}
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
+		#downloads a {
+			color: #333;
+			display: inline-block;
+			padding: 10px 30px;
+			margin-right: 30px;
+			background: #ccc;
+			text-decoration: none;
+			transition: all .2s linear;
+			-webkit-transition: all .2s linear;
+			-moz-transition: all .2s linear;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+		}
 
-        <footer>
-          Wp-jquery-ui-datepicker-skins is maintained by <a href="https://github.com/x-team">x-team</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
+		#downloads a:hover {
+			color: #eee;
+			background: #c00;
+		}
 
-        
-      </div>
-    </div>
-  </body>
+		#downloads a:last-child {
+			margin: 0;
+		}
+
+		.datepickers-cont {
+			margin: 0;
+			padding: 0;
+		}
+
+		.datepickers-cont td.part {
+			vertical-align: top;
+			padding: 0 1.4em 0 0;
+			height: 22em;
+		}
+
+		footer {
+			width: 900px;
+			display: block;
+			margin: 5em auto 1em;
+			padding: 1em 0;
+			color: #888;
+			font-size: .9em;
+			text-align: center;
+		}
+
+		footer a {
+			color: #666;
+			text-decoration: none;
+			font-weight: 600;
+		}
+
+		footer a:hover {
+			color: #000;
+		}
+
+		/* clearfix short For modern browsers */
+		.cf:before,
+		.cf:after { content:""; display:table; }
+		.cf:after { clear:both; }
+		/* For IE 6/7 (trigger hasLayout) */
+		.cf { zoom:1; }
+
+	</style>
+</head>
+<body>
+
+	<header>
+	<h1>WordPress jQuery Datepicker Skins</h1>
+	<a href="http://x-team.com/wordpress" class="x-team">by X-Team</a>
+	</header>
+	<div class="intro">
+		<p>A collection of jQuery UI datepicker skins to match the admin color schemes available in WordPress.</p><p>Available as CSS, LESS and SASS.</p>
+	</div>
+
+	<article>
+		<section id="downloads" class="clearfix">
+			<a href="https://github.com/x-team/wp-jquery-ui-datepicker-skins/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+			<a href="https://github.com/x-team/wp-jquery-ui-datepicker-skins/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+			<a href="https://github.com/x-team/wp-jquery-ui-datepicker-skins" id="view-on-github" class="button"><span>View on GitHub</span></a>
+		</section>
+		<table class="datepickers-cont">
+			<tr>
+				<td class="part">
+					<h2>Default</h2>
+					<div class="datepicker"></div>
+				</td>
+
+				<td class="part">
+					<h2>Light</h2>
+					<div class="datepicker admin-color-light"></div>
+				</td>
+
+				<td class="part">
+					<h2>Blue</h2>
+					<div class="datepicker admin-color-blue"></div>
+				</td>
+			</tr>
+			<tr>
+				<td class="part">
+					<h2>Coffee</h2>
+					<div class="datepicker admin-color-coffee"></div>
+				</td>
+
+				<td class="part">
+					<h2>Ectoplasm</h2>
+					<div class="datepicker admin-color-ectoplasm"></div>
+				</td>
+
+				<td class="part">
+					<h2>Midnight</h2>
+					<div class="datepicker admin-color-midnight"></div>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="part">
+					<h2>Ocean</h2>
+					<div class="datepicker admin-color-ocean"></div>
+				</td>
+
+				<td class="part">
+					<h2>Sunrise</h2>
+					<div class="datepicker admin-color-sunrise"></div>
+				</td>
+
+				<td></td>
+			</tr>
+
+		</table>
+	</article>
+
+	<footer>
+		Built for the <a href="http://wordpress.org">WordPress Community</a> by <a href="http://x-team.com/wordpress">X-Team</a>.  Inspired by <a href="http://rtsinani.github.io/jquery-datepicker-skins/">jQuery Datepicker Skins</a>.
+	</footer>
+</body>
 </html>
