@@ -15,11 +15,12 @@ Includes Datepicker styles for:
 
 
 ##Usage
-=============================
 
 ###Initial Setup
 
-Be sure to enqueue WordPress' prepackaged jQuery UI CSS file using ````wp_enqueue_style( 'jquery-ui' )```` and the related javascript files using ````wp_enqueue_style( 'jquery-ui' );```` and ````wp_enqueue_script( 'jquery-ui-datepicker' )````.
+Be sure to enqueue WordPress' prepackaged jQuery UI CSS file using ````wp_enqueue_style( 'jquery-ui' )```` and the related javascript files using ````wp_enqueue_script( 'jquery' )```` and ````wp_enqueue_script( 'jquery-ui-datepicker' )````.
+
+Help with configuring jQuery UI's Datepicker can be found at http://jqueryui.com/datepicker/.
 
 ###Using the CSS file
 
@@ -39,7 +40,7 @@ To include the WP jQuery Datepicker stylesheet in your project, simply copy the 
 
 1.  Copy and rename one of the  .scss files in ````sass/schemes/```` (e.g., blue.scss).
 
-2.  Fill in the variables at the top of the file with your desired class name colors.
+2.  Fill in the variables at the top of the file with your desired class name and colors.
 
 3.  In ````sass/datepicker.scss```` import your newly-created .scss scheme file.
 
