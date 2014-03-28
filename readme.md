@@ -3,7 +3,7 @@ jQuery UI datepicker skins for WordPress
 
 A collection of jQuery UI datepicker skins to match the admin color schemes available in WordPress.
 
-Includes Datepicker styles for:
+This project includes CSS/LESS/Sass for the following default WordPress admin color schemes:
 * Default
 * Light
 * Blue
@@ -12,7 +12,6 @@ Includes Datepicker styles for:
 * Midnight
 * Ocean
 * Sunrise
-
 
 ##Usage
 
@@ -24,7 +23,7 @@ Help with configuring jQuery UI's Datepicker can be found at http://jqueryui.com
 
 ###Using the CSS file
 
-To include the WP jQuery Datepicker stylesheet in your project, simply copy the CSS file located at ````css/datepicker.css```` and enqueue it using the ````admin_enqueue_scripts```` WordPress action hook.
+To include the WP jQuery Datepicker stylesheet, simply copy the CSS file located at ````css/datepicker.css```` to your project and enqueue it using the ````admin_enqueue_scripts```` WordPress action hook.
 
 ###Generating Custom LESS Styles
 
