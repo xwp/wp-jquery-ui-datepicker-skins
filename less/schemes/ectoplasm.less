@@ -1,0 +1,23 @@
+@schemeEcto: ~'.admin-color-ectoplasm';
+@headerEcto: #413256;
+@borderEcto: #523F6D;
+@activeEcto: #A3B745;
+
+@{schemeEcto} .ui-datepicker {
+
+	.ui-datepicker-header,
+	.ui-datepicker-header .ui-state-hover,
+	thead {
+		background: @headerEcto;
+	}
+
+	th {
+		border-color: @borderEcto;
+	}
+
+	td .ui-state-active,
+	td .ui-state-hover {
+		background: @activeEcto;
+	}
+
+}

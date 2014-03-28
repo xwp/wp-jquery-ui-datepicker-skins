@@ -1,0 +1,23 @@
+@schemeMidnight: ~'.admin-color-midnight';
+@headerMidnight: #26292C;
+@borderMidnight: #363B3F;
+@activeMidnight: #E14D43;
+
+@{schemeMidnight} .ui-datepicker {
+
+	.ui-datepicker-header,
+	.ui-datepicker-header .ui-state-hover,
+	thead {
+		background: @headerMidnight;
+	}
+
+	th {
+		border-color: @borderMidnight;
+	}
+
+	td .ui-state-active,
+	td .ui-state-hover {
+		background: @activeMidnight;
+	}
+
+}

@@ -1,0 +1,23 @@
+@schemeOcean: ~'.admin-color-ocean';
+@headerOcean: #627C83;
+@borderOcean: #738E96;
+@activeOcean: #9EBAA0;
+
+@{schemeOcean} .ui-datepicker {
+
+	.ui-datepicker-header,
+	.ui-datepicker-header .ui-state-hover,
+	thead {
+		background: @headerOcean;
+	}
+
+	th {
+		border-color: @borderOcean;
+	}
+
+	td .ui-state-active,
+	td .ui-state-hover {
+		background: @activeOcean;
+	}
+
+}

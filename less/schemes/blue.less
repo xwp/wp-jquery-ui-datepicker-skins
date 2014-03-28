@@ -1,0 +1,23 @@
+@schemeBlue: ~'.admin-color-blue';
+@headerBlue: #4796B3;
+@borderBlue: #52ACCC;
+@activeBlue: #096484;
+
+@{schemeBlue} .ui-datepicker {
+
+	.ui-datepicker-header,
+	.ui-datepicker-header .ui-state-hover,
+	thead {
+		background: @headerBlue;
+	}
+
+	th {
+		border-color: @borderBlue;
+	}
+
+	td .ui-state-active,
+	td .ui-state-hover {
+		background: @activeBlue;
+	}
+
+}
