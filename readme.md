@@ -35,7 +35,7 @@ To include the WP jQuery Datepicker stylesheet, simply copy the CSS file located
 
 2.  Fill in the variables at the top of the file with your desired class name and colors.
 
-3.  In ````less/datepicker.less```` import your newly-created .less scheme file.
+3.  In ````less/datepicker.less```` @import your newly-created .less scheme file.
 
 4.  Compile your LESS and enqueue your new CSS file.
 
@@ -45,7 +45,7 @@ To include the WP jQuery Datepicker stylesheet, simply copy the CSS file located
 
 2.  Fill in the variables at the top of the file with your desired class name and colors.
 
-3.  In ````sass/datepicker.scss```` import your newly-created .scss scheme file.
+3.  In ````sass/datepicker.scss```` @import your newly-created .scss scheme file.
 
 4.  Compile your Sass and enqueue your new CSS file.
 
