@@ -15,7 +15,7 @@ This project includes CSS/LESS/Sass for the following prepackaged WordPress admi
 * Ocean
 * Sunrise
 
-[Comparison Image](https://raw.githubusercontent.com/x-team/wp-jquery-ui-datepicker-skins/master/assets/comparison.png)
+![Comparison Image](https://raw.githubusercontent.com/x-team/wp-jquery-ui-datepicker-skins/master/assets/comparison.png)
 
 ##Usage
 
