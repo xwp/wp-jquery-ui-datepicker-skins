@@ -5,6 +5,8 @@
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
+	font-size: 14px;
+	width: 17em;
 }
 .ui-datepicker * {
 	padding: 0;
