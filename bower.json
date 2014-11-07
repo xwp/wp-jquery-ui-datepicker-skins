@@ -1,0 +1,17 @@
+{
+  "name": "wp-jquery-ui-datepicker-skins",
+  "version": "0.1",
+  "main": "css/datepicker.css",
+  "license": "MIT",
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "jquery-ui": "1.11.1"
+  },
+  "keywords": [
+    "jquery-ui",
+    "datepicker"
+  ]
+}
+
