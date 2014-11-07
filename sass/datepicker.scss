@@ -77,6 +77,12 @@
 		background-position: -96px 0;
 	}
 
+	select.ui-datepicker-year,
+	select.ui-datepicker-month {
+		border: none;
+		margin-left: 6px;
+	}
+
 	th {
 		padding: 0.75em 0;
 		color: #fff;
