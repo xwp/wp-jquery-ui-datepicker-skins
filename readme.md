@@ -3,7 +3,7 @@ jQuery UI Datepicker Skins for WordPress
 
 A collection of jQuery UI datepicker skins to match the admin color schemes available in WordPress.
 
-To preview the skins, visit http://xwpco.github.io/wp-jquery-ui-datepicker-skins/.
+To preview the skins, visit http://xwp.github.io/wp-jquery-ui-datepicker-skins/.
 
 This project includes CSS/LESS/Sass for the following prepackaged WordPress admin color schemes:
 * Default
@@ -15,7 +15,7 @@ This project includes CSS/LESS/Sass for the following prepackaged WordPress admi
 * Ocean
 * Sunrise
 
-![Comparison Image](https://raw.githubusercontent.com/xwpco/wp-jquery-ui-datepicker-skins/master/assets/comparison.png)
+![Comparison Image](https://raw.githubusercontent.com/xwp/wp-jquery-ui-datepicker-skins/master/assets/comparison.png)
 
 ##Usage
 
