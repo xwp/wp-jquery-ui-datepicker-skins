@@ -21,13 +21,55 @@ This project includes CSS/LESS/Sass for the following prepackaged WordPress admi
 
 ###Initial Setup
 
-Be sure to enqueue WordPress' prepackaged jQuery UI CSS file using ````wp_enqueue_style( 'jquery-ui' )```` and the related javascript files using ````wp_enqueue_script( 'jquery' )```` and ````wp_enqueue_script( 'jquery-ui-datepicker' )````.
+Be sure to enqueue [the jQuery UI base CSS file](https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.min.css) with your own ````wp_enqueue_style()```` call, and the related javascript files using ````wp_enqueue_script( 'jquery' )```` and ````wp_enqueue_script( 'jquery-ui-datepicker' )````.
 
 Help with configuring jQuery UI's Datepicker can be found at http://jqueryui.com/datepicker/.
 
 ###Using the CSS file
 
 To include the WP jQuery Datepicker stylesheet, simply copy the CSS file located at ````css/datepicker.css```` to your project and enqueue it using the ````admin_enqueue_scripts```` WordPress action hook.
+
+
+###Complete Example
+
+```php
+function myplugin_enqueue_scripts() {
+	wp_register_script(
+		'myplugin-js',
+		plugins_url( 'javascript/myplugin.js', __FILE__ ),
+		array( 'jquery', 'jquery-ui-datepicker' ),
+		$myplugin_version,
+		true
+	);
+
+	// Can remove this when #18909-core is committed
+	wp_register_style(
+		'jquery-ui',
+		plugins_url( 'css/jquery-ui.min.css', __FILE__ ),
+		array(),
+		'1.11.1'
+	);
+
+	// https://github.com/x-team/wp-jquery-ui-datepicker-skins
+	wp_register_style(
+		'wp-datepicker-skins',
+		plugins_url( 'css/datepicker.css', __FILE__ ),
+		array( 'jquery-ui' ),
+		'1712f05a1c6a76ef0ac0b0a9bf79224e52e461ab'
+	);
+
+	wp_register_style(
+		'myplugin-css',
+		plugins_url( 'css/myplugin.css', __FILE__ ),
+		array( 'wp-datepicker-skins' ),
+		$myplugin_version
+	);
+
+	wp_enqueue_script( 'myplugin-js' );
+	wp_enqueue_style( 'myplugin-css' );
+}
+add_action( 'admin_enqueue_scripts',  'myplugin_enqueue_scripts' );
+```
 
 ###Generating Custom LESS Styles
 
