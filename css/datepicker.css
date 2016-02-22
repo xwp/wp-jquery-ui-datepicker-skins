@@ -66,6 +66,11 @@
 .ui-datepicker .ui-datepicker-prev span {
 	background-position: -96px 0;
 }
+.ui-datepicker select.ui-datepicker-year,
+.ui-datepicker select.ui-datepicker-month {
+	border: none;
+	margin-left: 6px;
+}
 .ui-datepicker th {
 	padding: 0.75em 0;
 	color: #fff;
