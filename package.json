@@ -1,0 +1,20 @@
+{
+  "name": "wp-jquery-ui-datepicker-skins",
+  "version": "0.1",
+  "description": "jQuery UI datepicker skins for WordPress Admin color schemes",
+  "main": "css/datepicker.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwp/wp-jquery-ui-datepicker-skins.git"
+  },
+  "keywords": [
+    "jquery-ui",
+    "datepicker"
+  ],
+  "author": "XWP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xwp/wp-jquery-ui-datepicker-skins/issues"
+  },
+  "homepage": "https://github.com/xwp/wp-jquery-ui-datepicker-skins#readme"
+}
