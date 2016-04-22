@@ -1,6 +1,6 @@
 {
   "name": "wp-jquery-ui-datepicker-skins",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "jQuery UI datepicker skins for WordPress Admin color schemes",
   "main": "css/datepicker.css",
   "repository": {
