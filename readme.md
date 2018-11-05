@@ -17,19 +17,19 @@ This project includes CSS/LESS/Sass for the following prepackaged WordPress admi
 
 ![Comparison Image](https://raw.githubusercontent.com/xwp/wp-jquery-ui-datepicker-skins/master/assets/comparison.png)
 
-##Usage
+## Usage
 
-###Initial Setup
+### Initial Setup
 
 Be sure to enqueue WordPress' prepackaged jQuery UI CSS file using ````wp_enqueue_style( 'jquery-ui' )```` and the related javascript files using ````wp_enqueue_script( 'jquery' )```` and ````wp_enqueue_script( 'jquery-ui-datepicker' )````.
 
 Help with configuring jQuery UI's Datepicker can be found at http://jqueryui.com/datepicker/.
 
-###Using the CSS file
+### Using the CSS file
 
 To include the WP jQuery Datepicker stylesheet, simply copy the CSS file located at ````css/datepicker.css```` to your project and enqueue it using the ````admin_enqueue_scripts```` WordPress action hook.
 
-###Generating Custom LESS Styles
+### Generating Custom LESS Styles
 
 1.  Copy and rename one of the  .less files in ````less/schemes/```` (e.g., blue.less).
 
@@ -39,7 +39,7 @@ To include the WP jQuery Datepicker stylesheet, simply copy the CSS file located
 
 4.  Compile your LESS and enqueue your new CSS file.
 
-###Generating Custom Sass Styles
+### Generating Custom Sass Styles
 
 1.  Copy and rename one of the  .scss files in ````sass/schemes/```` (e.g., blue.scss).
 
@@ -49,7 +49,7 @@ To include the WP jQuery Datepicker stylesheet, simply copy the CSS file located
 
 4.  Compile your Sass and enqueue your new CSS file.
 
-##Credits
+## Credits
 
 Developed for the <a href="http://wordpress.org">WordPress Community</a> by the Superheroes at <a href="https://xwp.co">XWP</a>.
 
